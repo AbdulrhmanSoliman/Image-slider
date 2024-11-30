@@ -86,7 +86,7 @@ function startInterval() {
       changeImage(currentImageIndex);
     }
     addActiveBullet(bulletElements);
-  }, 1000);
+  }, 3000); // after 3 seconds
 }
 
 startInterval(); // start the interval initially
